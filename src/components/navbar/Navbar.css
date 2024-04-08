@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 170px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  font-size: 20px;
+}
+.nav-menu li{
+    list-style: none;
+    cursor: pointer;
+}
+.nav-action {
+  padding: 15px 30px;
+  border-radius: 50px;
+  background: linear-gradient(270deg, orange 10%, purple 100%);
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+}
+.nav-action:hover{
+    transform: scale(1.05);
+}
