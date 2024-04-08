@@ -3,9 +3,9 @@ import React from "react";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
-import Services from "./components/service.jsx/Services";
-import Mywrok from "./components/mywork/Mywrok";
+import Mywork from "./components/mywork/Mywork";
 import Contact from "./components/contact/Contact";
+import Services from "./components/service/Services";
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
       <Hero />
       <About />
       <Services />
-      <Mywrok />
+      <Mywork />
       <Contact />
     </div>
   );
