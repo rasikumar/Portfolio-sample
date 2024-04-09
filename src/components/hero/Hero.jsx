@@ -5,10 +5,10 @@ import profile from "../../assets/profile_img.svg";
 import "./Hero.css";
 const Hero = () => {
   return (
-    <div className="hero">
+    <div id="hero" className="hero">
       <img src={profile} />
       <h1>
-        <span>I'm a Rasi kumar,</span> I'm a frontend developer
+        <span>I'm  Maxwell,</span> I'm a frontend developer
       </h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi corporis

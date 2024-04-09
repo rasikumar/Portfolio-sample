@@ -6,7 +6,7 @@ import About from "./components/about/About";
 import Mywork from "./components/mywork/Mywork";
 import Contact from "./components/contact/Contact";
 import Services from "./components/service/Services";
-import  Footer  from "./components/footer/Footer";
+import { Footer } from "./components/footer/Footer";
 
 const App = () => {
   return (
