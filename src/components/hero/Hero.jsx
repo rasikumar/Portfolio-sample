@@ -3,6 +3,8 @@
 import React from "react";
 import profile from "../../assets/profile_img.svg";
 import "./Hero.css";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 const Hero = () => {
   return (
     <div id="hero" className="hero">
@@ -16,7 +18,7 @@ const Hero = () => {
         voluptas magni.
       </p>
       <div className="hero-action">
-        <div className="hero-connect">Connect with me</div>
+        <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
         <div className="hero-resume">my Resume</div>
       </div>
     </div>
